@@ -4,6 +4,7 @@ public class SpeedConverter {
         if (kilometersPerHour < 0) {
             return -1;
         }
+
         return Math.round(kilometersPerHour / 1.609);
     }
 
