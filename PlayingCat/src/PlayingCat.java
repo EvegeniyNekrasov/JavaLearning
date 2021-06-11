@@ -5,5 +5,9 @@ public class PlayingCat {
         } else {
             return summer && (temperature >= 25 && temperature <= 45);
         }
+
+        // Less Code
+        // if (summer && temp >=25 && temp <=45) return true;
+        // return !summer && temp >= 25 && temp <= 35;
     }
 }
