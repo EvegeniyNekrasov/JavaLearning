@@ -1,6 +1,6 @@
 public class NumberOfDaysInMonth {
     public static boolean isLeapYear(int year) {
-        return (year > 1 && year < 9999) && (year % 4 == 0 && year % 100 != 0);
+        return (year > 1 && year < 9999) && (year % 4 == 0 && year % 100 != 0 || year % 100 == 0);
     }
 
     public static int getDayInMonth(int month, int year) {
