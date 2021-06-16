@@ -3,3 +3,11 @@ public class Main {
         DiagonalStar.printSquareStar(5);
     }
 }
+/*
+output:
+*****
+** **
+* * *
+** **
+*****
+ */

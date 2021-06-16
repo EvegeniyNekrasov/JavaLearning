@@ -16,11 +16,3 @@ public class DiagonalStar {
         }
     }
 }
-/*
-output:
-*****
-** **
-* * *
-** **
-*****
- */
