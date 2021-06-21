@@ -36,7 +36,6 @@ public class SimpleCalculator {
         if(secondNumber == 0) {
             return 0;
         }
-
         return firstNumber / secondNumber;
     }
 }

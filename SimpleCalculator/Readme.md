@@ -13,7 +13,7 @@ names **firstNumber** and **secondNumber** both of type double.
 - Method named **getDivisionResult** without any parameters it needs to return the result of dividing the field values of firstNumber by the secondNumber. In case the value of secondNumber is 0 then return 0.
 
 
-#### TEST CODE:
+#### TEST CODE :
 
 > SimpleCalculator calculator = new SimpleCalculator();
 > 
