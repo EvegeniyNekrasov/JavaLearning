@@ -14,6 +14,11 @@ public class BankAccount {
         System.out.println("Empty constructor called");
     }
 
+    // Constructor with 3 parameters and 2 default settings
+    public BankAccount(String customerName, String customerEmail, String phoneNumber) {
+        this("99999", 100.55, customerName, customerEmail, phoneNumber);
+    }
+
     // Creating a constructor
     public BankAccount(String number, double balance, String customerName, String customerEmail, String phoneNumber) {
         this.number = number;
