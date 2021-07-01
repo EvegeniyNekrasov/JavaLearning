@@ -83,5 +83,4 @@ public class Main {
             System.out.println(searchItem + " is not in the shopping list");
         }
     }
-
 }
